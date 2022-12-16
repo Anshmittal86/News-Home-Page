@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;900&family=Montserrat:wght@400;600;700;900&family=Ubuntu:wght@300&display=swap');
+
+html {
+    font-size: 15px;
+}
+
+* {
+    border: none;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+
+hr {
+    color: hsl(36, 100%, 99%);
+}
+
+body {
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 500;
+    width: 100vw;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.background-width {
+    padding-top: 2rem;
+    max-width: 1000px;
+
+}
+
+h1 {
+    font-family: 'Inter';
+    font-weight: 900;
+    color: hsl(240, 100%, 5%);
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    color: hsl(35, 77%, 62%);
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: hsl(36, 100%, 99%);
+}
+
+.nav-item {
+    margin-left: 0.5rem;
+}
+
+.nav-link:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.news-link {
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+}
+
+.news-tab h3 .news-link:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.col-sm-12 img {
+    width: calc(100% - 20px);
+}
+
+
+.read-more-btn {
+    color: hsl(36, 100%, 99%);
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    background-color: hsl(5, 85%, 63%);
+    letter-spacing: 0.2rem;
+}
+
+.read-more-btn:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+
+.new-tab {
+    max-width: 315px;
+    height: min(500px, 75vh);
+    /* margin-left: 20px; */
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new-tab-title {
+    padding-top: 20px;
+}
+
+.bottom-section-image {
+    width: 100px;
+}
+
+.bottom-section-no {
+    color: hsl(233, 8%, 79%);
+}
+
+@media screen and (max-width: 768px) {
+
+    .background-width {
+        max-width: 98vw;
+        padding-bottom: 3rem;
+    }
+
+    .new-tab {
+        max-width: 98vw;
+        margin: 2rem auto;
+    }
+}
+
+/* attribution style */
+
+.attribution {
+    margin-block: 1rem;
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+}
